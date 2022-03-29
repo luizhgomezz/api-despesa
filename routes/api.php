@@ -34,5 +34,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('despesa/usuario/{userId}', [\App\Http\Controllers\Api\v1\DespesaController::class, 'show'])->name('show');
     Route::delete('despesa/{despesaId}', [\App\Http\Controllers\Api\v1\DespesaController::class, 'delete'])->name('delete');
     Route::put('despesa', [\App\Http\Controllers\Api\v1\DespesaController::class, 'update'])->name('update');
-    Route::resource('despesa', \App\Http\Controllers\Api\v1\DespesaController::class);
 });
