@@ -4,7 +4,7 @@
 
 ## Configurando Projeto
 
-- .env ( as informações do mailer estão no .env.example )
+- .env ( as informações do mailer estão no .env.example | https://sendgrid.com/ utilizado localmente. )
 - .env (  QUEUE_CONNECTION=database também setado em .env.example )
 - composer install
 - php artisan migrate
